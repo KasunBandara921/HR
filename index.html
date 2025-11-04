@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HR Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Human Resource Management System</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Employees</a></li>
+        <li><a href="#">Attendance</a></li>
+        <li><a href="#">Leave</a></li>
+        <li><a href="#">Reports</a></li>
+      </ul>
+    </nav>==
+  </header>
+
+  <main>~
+    <section id="employee-section">
+      <h2>Employee Directory</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Email</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="employee-table-body">
+          <!-- Dynamic rows will be inserted here -->
+        </tbody>
+      </table>
+    </section>
+
+    <section id="add-employee">
+      <h2>Add New Employee</h2>
+      <form id="employee-form">
+        <input type="text" placeholder="Name" required />
+        <input type="text" placeholder="Position" required />
+        <input type="email" placeholder="Email" required />
+        <button type="submit">Add Employee</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HRMS by Kasun</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
