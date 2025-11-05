@@ -42,3 +42,5 @@ searchInput.addEventListener("input", () => {
     row.style.display = match ? "" : "none";
   });
 });
+
+// This is a test commit for practicing git revert
